@@ -95,10 +95,7 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "repo": "https://github.com/JOSHLET4/AAT1_Angular.git"
-          }
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
