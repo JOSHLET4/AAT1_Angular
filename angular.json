@@ -95,7 +95,10 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://JOSHLET4.github.io/AAT1_Angular/"
+          }
         }
       }
     }
